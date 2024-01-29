@@ -6,8 +6,6 @@ import { Button } from "../../ui/Button/Button";
 const Applications = () => {
   const { applications, isLoading, loadMore } = useFetchApplications();
 
-  console.log("coucou applications", applications);
-
   return (
     <div className={styles.Applications}>
       {applications.map((application) => (

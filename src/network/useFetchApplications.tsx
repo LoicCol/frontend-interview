@@ -57,8 +57,6 @@ export const useFetchApplications = (): {
     loadedPages: [],
   });
 
-  console.log("coucou state", state);
-
   const fetchApplications = async () => {
     if (state.loadedPages.includes(state.page)) {
       return;

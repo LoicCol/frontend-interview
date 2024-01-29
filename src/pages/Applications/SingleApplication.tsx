@@ -18,7 +18,7 @@ const SingleApplication = ({ application }) => {
       </div>
       <div className={styles.cell}>
         <sub>Loan Amount</sub>
-        {`£${application.loan_amount.toLocaleString()}`}
+        {`£${application.loan_amount?.toLocaleString()}`}
       </div>
       <div className={styles.cell}>
         <sub>Application Date</sub>
