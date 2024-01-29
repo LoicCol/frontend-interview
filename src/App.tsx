@@ -1,6 +1,6 @@
 import "./App.css";
-import Applications from "./Applications";
-import Header from "./Header";
+import Applications from "./pages/Applications/Applications";
+import Header from "./ui/Header/Header";
 
 function App() {
   return (
